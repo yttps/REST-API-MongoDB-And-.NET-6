@@ -9,6 +9,8 @@ Set up Project
   4.Test Run press F5
 	
   5.Open browser and parse URL : https://localhost:[port]/swagger/index.html or https://localhost:[port]/weatherforecast
+
+  6.Open terminal to install : dotnet add package MongoDB.Driver 
 	
-  6.Open MongoDB Compass to create database name "TodoDB" and collection "Todos" 
+  7.Open MongoDB Compass to create database name "TodoDB" and collection "Todos" 
   
