@@ -13,4 +13,17 @@ Set up Project
   6.Open terminal to install : dotnet add package MongoDB.Driver 
 	
   7.Open MongoDB Compass to create database name "TodoDB" and collection "Todos" 
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+TodoAPI/
+├── Controllers/
+│   └── TodoAPIController.cs   ← 💡 Endpoint Request
+├── Services/
+│   └── TodoService.cs         ← 💡 Logic call to Database
+├── Models/
+│   ├── Todo.cs                ← 💡 Model data
+│   └── TodoDatabaseSettings.cs
+├── appsettings.json           ← 💡 Config MongoDB
+├── Program.cs                 ← 💡 Start app and config DI
   
